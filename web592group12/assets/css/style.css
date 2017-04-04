@@ -43,15 +43,17 @@ a:hover {
   NAVBAR ADJUSTMENTS
 ==================================================*/
 .navbar-brand {
-font-size: 25px;
+font-size: 50px;
 padding: 15px 80px 15px 60px;
 }
 .navbar-default .navbar-brand {
-color: #000000;
+color: #FFFFFF;
 }
 .navbar-default {
 background-color: #000000;
 border-color: #000000;
+opacity :0.8;
+
 }
 .navbar {
  border-radius: 0px; 
@@ -64,20 +66,20 @@ color: #FFF;
 }
 
 .navbar-default .navbar-brand {
-color: #FFFFFF;
+color: #FFF;
 }
 .navbar-default .navbar-brand:hover {
-color: #FFFFFF;
+color: #FFF;
 }
 .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
 color: #050505;
-background-color: #FFFFFF;
+background-color: #FFF;
 }
 .navbar-default .navbar-nav .open .dropdown-menu > li > a {
-color: #000;
+color: #FFF;
 }
 .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover {
-color: #000;
+color: #FFF;
 }
 /*=======================================
   BOOTSTRAP ADJUSTMENTS
@@ -128,8 +130,8 @@ font-size:16px;
     text-decoration:none;
 }
 .offer-colors {
-   background-color: #B05FDD;
-border: 1px solid #A228F3;
+   background-color: #000000;
+	border: 1px solid #A228F3;
 }
 
 .download-app-box {
@@ -144,16 +146,13 @@ color:#fff;
 /*=======================================
   SLIDER main-style.css Changes
 ==================================================*/
-.mi-slider {
-margin-top: 0px;
-}
 
 .offer-text
 {
-position: absolute;
+position: center;
 color: #FFF;
-padding: 14px 16px 12px 16px;
-margin-top: 10px;
+padding: 0px 0px 0px 0px;
+margin-top: 0px;
 background-color:#18b424;
 
 }
