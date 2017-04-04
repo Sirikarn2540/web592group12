@@ -1,4 +1,11 @@
 <!DOCTYPE html>
+<?php
+error_reporting(0);
+ $appid = "yokkyproject1.appspot.com";
+ $page = $_GET['p'];
+ if($page=='') $page='main';
+ $title = $page;
+ ?>
 <html lang="en">
 <head>
     <meta charset="utf-8">
@@ -128,7 +135,7 @@
                         </ul>
                         <nav>
                             <a href="#">Adidas</a>
-                            <a href="#">Convert</a>
+                            <a href="#">Converse</a>
                             <a href="#">Nike</a>
                             <a href="#">Puma</a>
                             <a href="#">Van</a>
@@ -143,71 +150,29 @@
         <div class="row">
             <div class="col-md-3">
                 <div>
-                    <a href="#" class="list-group-item active">Electronics
+                    <a href="#" class="list-group-item active">Shoes Brand
                     </a>
                     <ul class="list-group">
 
-                        <li class="list-group-item">Mobile
-      <span class="label label-primary pull-right">234</span>
+                        <li class="list-group-item">Adidas
+      <span class="label label-primary pull-right">10</span>
                         </li>
-                        <li class="list-group-item">Computers
-                      <span class="label label-success pull-right">34</span>
+                        <li class="list-group-item"><a href="/Converse.php">Converse</a>
+                      <span class="label label-success pull-right">10</span>
                         </li>
-                        <li class="list-group-item">Tablets
-                         <span class="label label-danger pull-right">4</span>
+                        <li class="list-group-item">Nike
+                         <span class="label label-danger pull-right">10</span>
                         </li>
-                        <li class="list-group-item">Appliances
-                             <span class="label label-info pull-right">434</span>
+                        <li class="list-group-item">Puma
+                             <span class="label label-info pull-right">10</span>
                         </li>
-                        <li class="list-group-item">Games & Entertainment
-                             <span class="label label-success pull-right">34</span>
+                        <li class="list-group-item">Van
+                             <span class="label label-success pull-right">10</span>
                         </li>
                     </ul>
                 </div>
                 <!-- /.div -->
-                <div>
-                    <a href="#" class="list-group-item active list-group-item-success">Clothing & Wears
-                    </a>
-                    <ul class="list-group">
-
-                        <li class="list-group-item">Men's Clothing
-                             <span class="label label-danger pull-right">300</span>
-                        </li>
-                        <li class="list-group-item">Women's Clothing
-                             <span class="label label-success pull-right">340</span>
-                        </li>
-                        <li class="list-group-item">Kid's Wear
-                             <span class="label label-info pull-right">735</span>
-                        </li>
-
-                    </ul>
-                </div>
-                <!-- /.div -->
-                <div>
-                    <a href="#" class="list-group-item active">Accessaries & Extras
-                    </a>
-                    <ul class="list-group">
-                        <li class="list-group-item">Mobile Accessaries
-                             <span class="label label-warning pull-right">456</span>
-                        </li>
-                        <li class="list-group-item">Men's Accessaries
-                             <span class="label label-success pull-right">156</span>
-                        </li>
-                        <li class="list-group-item">Women's Accessaries
-                             <span class="label label-info pull-right">400</span>
-                        </li>
-                        <li class="list-group-item">Kid's Accessaries
-                             <span class="label label-primary pull-right">89</span>
-                        </li>
-                        <li class="list-group-item">Home Products
-                             <span class="label label-danger pull-right">90</span>
-                        </li>
-                        <li class="list-group-item">Kitchen Products
-                             <span class="label label-warning pull-right">567</span>
-                        </li>
-                    </ul>
-                </div>
-                <!-- /.div -->
+            
                 <div>
                     <ul class="list-group">
                         <li class="list-group-item list-group-item-success"><a href="#">New Offer's Coming </a></li>
@@ -217,23 +182,7 @@
                     </ul>
                 </div>
                 <!-- /.div -->
-                <div class="well well-lg offer-box offer-colors">
-
-
-                    <span class="glyphicon glyphicon-star-empty"></span>25 % off  , GRAB IT                 
-              
-                   <br />
-                    <br />
-                    <div class="progress progress-striped">
-                        <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"
-                            style="width: 70%">
-                            <span class="sr-only">70% Complete (success)</span>
-                            2hr 35 mins left
-                        </div>
-                    </div>
-                    <a href="#">click here to know more </a>
-                </div>
-                <!-- /.div -->
+                
             </div>
             <!-- /.col -->
             <div class="col-md-9">
@@ -246,7 +195,7 @@
                 <!-- /.div -->
                 <div class="row">
                     <div class="btn-group alg-right-pad">
-                        <button type="button" class="btn btn-default"><strong>1235  </strong>items</button>
+                        <button type="button" class="btn btn-default"><strong>50  </strong>items</button>
                         <div class="btn-group">
                             <button type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown">
                                 Sort Products &nbsp;
@@ -268,12 +217,10 @@
                 <div class="row">
                     <div class="col-md-4 text-center col-sm-6 col-xs-6">
                         <div class="thumbnail product-box">
-                            <img src="assets/img/dummyimg.png" alt="" />
+                            <img src="assets/img/NIKE AIR MAX THEA ULTRA FLYKNIT METALLIC.jpg" alt="" />
                             <div class="caption">
-                                <h3><a href="#">Samsung Galaxy </a></h3>
-                                <p>Price : <strong>$ 3,45,900</strong>  </p>
-                                <p><a href="#">Ptional dismiss button </a></p>
-                                <p>Ptional dismiss button in tional dismiss button in   </p>
+                                <h4><p style="color:black">NIKE AIR MAX THEA ULTRA FLYKNIT METALLIC</p></h4>
+                                <p>Price : <strong>6,400 THB</strong>  </p>
                                 <p><a href="#" class="btn btn-success" role="button">Add To Cart</a> <a href="#" class="btn btn-primary" role="button">See Details</a></p>
                             </div>
                         </div>
@@ -281,12 +228,10 @@
                     <!-- /.col -->
                     <div class="col-md-4 text-center col-sm-6 col-xs-6">
                         <div class="thumbnail product-box">
-                            <img src="assets/img/dummyimg.png" alt="" />
+                            <img src="assets/img/NIKE ROSHE TWO BREATHE.jpg" alt="" />
                             <div class="caption">
-                                <h3><a href="#">Samsung Galaxy </a></h3>
-                                <p>Price : <strong>$ 3,45,900</strong>  </p>
-                                <p><a href="#">Ptional dismiss button </a></p>
-                                <p>Ptional dismiss button in tional dismiss button in   </p>
+                                <h4><p style="color:black">NIKE ROSHE TWO BREATHE</p></h4>
+                                <p>Price : <strong>4,200 THB</strong>  </p>
                                 <p><a href="#" class="btn btn-success" role="button">Add To Cart</a> <a href="#" class="btn btn-primary" role="button">See Details</a></p>
                             </div>
                         </div>
@@ -294,12 +239,10 @@
                     <!-- /.col -->
                     <div class="col-md-4 text-center col-sm-6 col-xs-6">
                         <div class="thumbnail product-box">
-                            <img src="assets/img/dummyimg.png" alt="" />
+                            <img src="assets/img/NIKE JUVENATE PREMIUM.jpg" alt="" />
                             <div class="caption">
-                                <h3><a href="#">Samsung Galaxy </a></h3>
-                                <p>Price : <strong>$ 3,45,900</strong>  </p>
-                                <p><a href="#">Ptional dismiss button </a></p>
-                                <p>Ptional dismiss button in tional dismiss button in   </p>
+                                <h4><p style="color:black">NIKE JUVENATE PREMIUM</a></h4><br>
+                                <p>Price : <strong>4,200 THB</strong>  </p>
                                 <p><a href="#" class="btn btn-success" role="button">Add To Cart</a> <a href="#" class="btn btn-primary" role="button">See Details</a></p>
                             </div>
                         </div>
@@ -307,47 +250,7 @@
                     <!-- /.col -->
                 </div>
                 <!-- /.row -->
-                <div class="row">
-                    <ul class="pagination alg-right-pad">
-                        <li><a href="#">&laquo;</a></li>
-                        <li><a href="#">1</a></li>
-                        <li><a href="#">2</a></li>
-                        <li><a href="#">3</a></li>
-                        <li><a href="#">4</a></li>
-                        <li><a href="#">5</a></li>
-                        <li><a href="#">&raquo;</a></li>
-                    </ul>
-                </div>
-                <!-- /.row -->
-                <div>
-                    <ol class="breadcrumb">
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">Clothing</a></li>
-                        <li class="active">Men's Clothing</li>
-                    </ol>
-                </div>
-                <!-- /.div -->
-                <div class="row">
-                    <div class="btn-group alg-right-pad">
-                        <button type="button" class="btn btn-default"><strong>3005  </strong>items</button>
-                        <div class="btn-group">
-                            <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
-                                Sort Products &nbsp;
-      <span class="caret"></span>
-                            </button>
-                            <ul class="dropdown-menu">
-                                <li><a href="#">By Price Low</a></li>
-                                <li class="divider"></li>
-                                <li><a href="#">By Price High</a></li>
-                                <li class="divider"></li>
-                                <li><a href="#">By Popularity</a></li>
-                                <li class="divider"></li>
-                                <li><a href="#">By Reviews</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <!-- /.row -->
+               
                 <div class="row">
                     <div class="col-md-4 text-center col-sm-6 col-xs-6">
                         <div class="thumbnail product-box">
