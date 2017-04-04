@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
-    <title>Bootstrap E-Commerce Template- DIGI Shop mini</title>
+    <title>Shoes Store</title>
     <!-- Bootstrap core CSS -->
     <link href="assets/css/bootstrap.css" rel="stylesheet">
     <!-- Fontawesome core CSS -->
@@ -16,6 +16,7 @@
     <link href="assets/ItemSlider/css/main-style.css" rel="stylesheet" />
     <!-- custom CSS here -->
     <link href="assets/css/style.css" rel="stylesheet" />
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
     <nav class="navbar navbar-default" role="navigation">
@@ -28,7 +29,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#"><strong>DIGI</strong> Shop</a>
+                <a class="navbar-brand" href="#"><strong>Shoes</strong> Store</a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -36,20 +37,19 @@
 
 
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a href="#">Track Order</a></li>
                     <li><a href="#">Login</a></li>
                     <li><a href="#">Signup</a></li>
 
                     <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">24x7 Support <b class="caret"></b></a>
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Contact<b class="caret"></b></a>
                         <ul class="dropdown-menu">
-                            <li><a href="#"><strong>Call: </strong>+09-456-567-890</a></li>
-                            <li><a href="#"><strong>Mail: </strong>info@yourdomain.com</a></li>
+                            <li><a href="#"><strong>Call: </strong>0934147980</a></li>
+                            <li><a href="#"><strong>Mail: </strong>iwashereeverywhere@gmail.com</a></li>
                             <li class="divider"></li>
                             <li><a href="#"><strong>Address: </strong>
                                 <div>
-                                    234, New york Street,<br />
-                                    Just Location, USA
+                                    Khon Kaen University<br />
+                                    Khon Kaen, Thailand
                                 </div>
                             </a></li>
                         </ul>
@@ -60,7 +60,7 @@
                         <input type="text" placeholder="Enter Keyword Here ..." class="form-control">
                     </div>
                     &nbsp; 
-                    <button type="submit" class="btn btn-primary">Search</button>
+                    <button type="submit" class="btn btn-primary"><span class='glyphicon glyphicon-search'></span> Search</button>
                 </form>
             </div>
             <!-- /.navbar-collapse -->
@@ -69,14 +69,7 @@
     </nav>
     <div class="container">
         <div class="row">
-            <div class="col-md-9">
-                <div class="well well-lg offer-box text-center">
-
-
-                   Today's Offer : &nbsp; <span class="glyphicon glyphicon-cog"></span>&nbsp;40 % off  on purchase of $ 2,000 and above till 24 dec !                
-              
-               
-                </div>
+            <div class="col-md-12">
                 <div class="main box-border">
                     <div id="mi-slider" class="mi-slider">
                         <ul>
@@ -134,45 +127,17 @@
                             </a></li>
                         </ul>
                         <nav>
-                            <a href="#">Shoes</a>
-                            <a href="#">Accessories</a>
-                            <a href="#">Watches</a>
-                            <a href="#">Bags</a>
+                            <a href="#">Adidas</a>
+                            <a href="#">Convert</a>
+                            <a href="#">Nike</a>
+                            <a href="#">Puma</a>
+                            <a href="#">Van</a>
                         </nav>
                     </div>
                     
                 </div>
                 <br />
             </div>
-            <!-- /.col -->
-            
-            <div class="col-md-3 text-center">
-                <div class=" col-md-12 col-sm-6 col-xs-6" >
-                    <div class="offer-text">
-                        30% off here
-                    </div>
-                    <div class="thumbnail product-box">
-                        <img src="assets/img/dummyimg.png" alt="" />
-                        <div class="caption">
-                            <h3><a href="#">Samsung Galaxy </a></h3>
-                            <p><a href="#">Ptional dismiss button </a></p>
-                        </div>
-                    </div>
-                </div>
-                <div class=" col-md-12 col-sm-6 col-xs-6">
-                    <div class="offer-text2">
-                        30% off here
-                    </div>
-                    <div class="thumbnail product-box">
-                        <img src="assets/img/dummyimg.png" alt="" />
-                        <div class="caption">
-                            <h3><a href="#">Samsung Galaxy </a></h3>
-                            <p><a href="#">Ptional dismiss button </a></p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- /.col -->
         </div>
         <!-- /.row -->
         <div class="row">
