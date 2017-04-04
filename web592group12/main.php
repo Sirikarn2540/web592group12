@@ -25,6 +25,13 @@ error_reporting(0);
     <link href="assets/css/style.css" rel="stylesheet" />
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
 </head>
+<style>
+body {
+background-image: url("black.jpg");
+background-attachment:fixed;
+background-repeat: no-repeat; 
+background-size: cover;}
+</style>
 <body>
     <nav class="navbar navbar-default" role="navigation">
         <div class="container-fluid">
@@ -36,10 +43,16 @@ error_reporting(0);
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
+<<<<<<< HEAD
+				<br>
+                <a class="navbar-brand" href="#"><strong>Shoes</strong> Shop</a>
+=======
                 <a class="navbar-brand" href="#"><strong>Shoes</strong> Store</a>
+>>>>>>> origin/master
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
+			<br>
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 
 
@@ -49,6 +62,13 @@ error_reporting(0);
 
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Contact<b class="caret"></b></a>
+<<<<<<< HEAD
+                        <ul class="dropdown-menu"
+                            <li><a href="#"><strong>Call: </strong>085-0160606</a></li>
+                            <li><a href="#"><strong>Mail: </strong>pornpan.s@kkumail.com</a></li>
+                            <li class="divider"></li>
+                            <li><a href="#"><strong>Address: </strong>Khonkaen</a></li>
+=======
                         <ul class="dropdown-menu">
                             <li><a href="#"><strong>Call: </strong>0934147980</a></li>
                             <li><a href="#"><strong>Mail: </strong>iwashereeverywhere@gmail.com</a></li>
@@ -59,6 +79,7 @@ error_reporting(0);
                                     Khon Kaen, Thailand
                                 </div>
                             </a></li>
+>>>>>>> origin/master
                         </ul>
                     </li>
                 </ul>
@@ -67,13 +88,69 @@ error_reporting(0);
                         <input type="text" placeholder="Enter Keyword Here ..." class="form-control">
                     </div>
                     &nbsp; 
+<<<<<<< HEAD
+                    <button type="submit" class="btn btn-default">Search</button>
+                </form> 
+=======
                     <button type="submit" class="btn btn-primary"><span class='glyphicon glyphicon-search'></span> Search</button>
                 </form>
+>>>>>>> origin/master
             </div>
             <!-- /.navbar-collapse -->
         </div>
         <!-- /.container-fluid -->
+		<br>
     </nav>
+<<<<<<< HEAD
+    <br>
+	<br>
+					<div id="cp_widget_0db0bba7-42f0-4bdd-a065-378c28a58aab">...</div>
+					<script type="text/javascript">
+						var cpo = []; cpo["_object"] ="cp_widget_0db0bba7-42f0-4bdd-a065-378c28a58aab"; cpo["_fid"] = "AUBAv5dV5PBD";
+						var _cpmp = _cpmp || []; _cpmp.push(cpo);
+						(function() { var cp = document.createElement("script"); cp.type = "text/javascript";
+						cp.async = true; cp.src = "//www.cincopa.com/media-platform/runtime/libasync.js";
+						var c = document.getElementsByTagName("script")[0];
+						c.parentNode.insertBefore(cp, c); })(); </script>
+						<noscript><span>New Gallery 2017/4/4</span>
+						<span>originaldate</span>
+						<span> 1/1/0001 6:00:00 AM</span>
+						<span>width</span>
+						<span> 900</span>
+						<span>height</span>
+						<span> 576</span>
+						<span>originaldate</span>
+						<span> 1/1/0001 6:00:00 AM</span>
+						<span>width</span>
+						<span> 1800</span>
+						<span>height</span>
+						<span> 1200</span>
+						<span>originaldate</span>
+						<span> 1/1/0001 6:00:00 AM</span>
+						<span>width</span>
+						<span> 800</span>
+						<span>height</span>
+						<span> 600</span>
+						<span>originaldate</span>
+						<span> 1/1/0001 6:00:00 AM</span>
+						<span>width</span>
+						<span> 1500</span>
+						<span>height</span>
+						<span> 1001</span>
+						<span>originaldate</span>
+						<span> 1/1/0001 6:00:00 AM</span>
+						<span>height</span>
+						<span> 512</span>
+						<span>width</span>
+						<span> 768</span>
+						<span>orientation</span>
+						<span> 1</span>
+						<span>camerasoftware</span>
+						<span> Adobe Photoshop CC 2</span>
+						</noscript>
+               <br>
+			   <br>
+=======
     <div class="container">
         <div class="row">
             <div class="col-md-12">
@@ -145,16 +222,43 @@ error_reporting(0);
                 </div>
                 <br />
             </div>
+>>>>>>> origin/master
         </div>
         <!-- /.row -->
         <div class="row">
             <div class="col-md-3">
                 <div>
+<<<<<<< HEAD
+                    <a href="#" class="list-group-item active"> Shoes Brand
+=======
                     <a href="#" class="list-group-item active">Shoes Brand
+>>>>>>> origin/master
                     </a>
                     <ul class="list-group">
 
                         <li class="list-group-item">Adidas
+<<<<<<< HEAD
+							<span class="label label-primary pull-right">234</span>
+                        </li>
+                        <li class="list-group-item">Computers
+							<span class="label label-success pull-right">34</span>
+                        </li>
+                        <li class="list-group-item">Tablets
+							<span class="label label-danger pull-right">4</span>
+                        </li>
+                        <li class="list-group-item">Appliances
+                             <span class="label label-info pull-right">434</span>
+                        </li>
+                        <li class="list-group-item">Games & Entertainment
+                             <span class="label label-success pull-right">34</span>
+                        </li>
+                    </ul>
+                </div>
+                <!-- /.div -->
+               
+                <!-- /.div -->
+                
+=======
       <span class="label label-primary pull-right">10</span>
                         </li>
                         <li class="list-group-item"><a href="/Converse.php">Converse</a>
@@ -171,6 +275,7 @@ error_reporting(0);
                         </li>
                     </ul>
                 </div>
+>>>>>>> origin/master
                 <!-- /.div -->
             
                 <div>
@@ -182,7 +287,11 @@ error_reporting(0);
                     </ul>
                 </div>
                 <!-- /.div -->
+<<<<<<< HEAD
+                <!-- /.div -->
+=======
                 
+>>>>>>> origin/master
             </div>
             <!-- /.col -->
             <div class="col-md-9">
