@@ -1,3 +1,4 @@
+
 <ul class="nav nav-pills nav-stacked">
 <?php error_reporting(0);
  use google\appengine\api\users\User;

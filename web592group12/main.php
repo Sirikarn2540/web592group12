@@ -3,6 +3,7 @@
 <head>
  <meta charset="UTF-8">
  <title>KIDPAP</title>
+	<link rel="icon" href="https://image.flaticon.com/icons/png/128/252/252037.png">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 	<link rel="stylesheet"href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
@@ -16,11 +17,22 @@ background-image: url("bgm.jpg");
 background-attachment:fixed;
 background-repeat: no-repeat; 
 background-size: cover;}
-.head{
-	background-color:#000;
-	opacity:0.7;
-	font-face:Arail;
-	font-size:100px;
+#head{
+	background-color:rgba(1, 1, 1, 0.7);
+	font-face:Arial;
+	font-size:90px;
+}
+button.buttons{
+	background-color:rgba(1, 1, 1, 0.7);
+	border: 2px solid #FFF;
+	font-face:Arial;
+	font-size:50px;
+	color:#FFF;
+}
+#head button:hover{
+	background-color: #FFF;
+	color:#000;
+	border: 2px solid #000;
 }
 </style>
 	<br>
@@ -28,13 +40,11 @@ background-size: cover;}
 	<br>
 	<br>
 	<br>
+	
+	<div id="head" >
 	<br>
-	<br>
-	<div class="head" >
-	<br>
-	<center><font color="#FFF"><b> Welcome To Shoes Shop </b></font></center>
-	<center><b><a href="home.php"><img src ="https://dabuttonfactory.com/button.png?t=Go+To+Site&f=Open+Sans&ts=24&tc=fff&w=200&h=50&c=5&bgt=gradient&bgc=000&ebgc=000&be=1&bs=2&bc=fff" ></a></center>
-	<a href='http://www.freepik.com/free-vector/login-template-with-brightness-effect_1036685.htm'></a>
+	<center><font color="#FFF"><b> Welcome To KIDPAP Shop </b></font></center><br>
+	<center><a href="home.php"><button class='buttons'  onclick="home" >Go To Site</button></a></center>
 	<br>
 	</div>
 	<br>

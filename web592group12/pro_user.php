@@ -19,12 +19,17 @@
 
 	$url = UserService::createLogoutUrl('/home.php');
  // แสดงภาพผใู้ช ้โดยการเรยี กฟังกช์ นั userpic จากข ้อที่ 1
-	echo "<img src='".userpic($uid)."' width='200'><br>";
+	echo "<center>";
+	echo "<img src='".userpic($uid)."' width='200'><br><br>";
+	
 	echo $userdata['nick'];
 	echo "<br><a href='home.php?p=useredit'>Edit User</a>";
 	echo "<br><a href='$url'>Logout</a>";
+	echo "</center>";
  }else{
 	$url = UserService::createLoginUrl('/home.php');
+
 	echo "<a href='$url'>Login or Register</a>";
+	
  }
 ?>

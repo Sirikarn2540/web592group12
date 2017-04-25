@@ -32,6 +32,7 @@
 <head>
  <meta charset="UTF-8">
  <title><?= $page ?> </title>
+	<link rel="icon" href="https://image.flaticon.com/icons/png/128/252/252037.png">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 	<link rel="stylesheet"href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
@@ -47,13 +48,16 @@ background-repeat: no-repeat;
 background-size: cover;}
 
 .navbar-inverse{
-	background-color:#000;
-	opacity:1;
+	background-color:rgba(1,0,0,0.8);
+	position:fixed;
+	width:100%;
 }
 .navbar-brand{
-	font-size:50px;
+	font-face:Arial;
+	font-size:45px;
 	font-color:#FFF;
 }
+
 .navbar-right{
 	font-size:20px;
 }
@@ -62,98 +66,12 @@ background-size: cover;}
   border:0;
 }
 .panel-primary .panel-heading{
-  background: rgba(97, 96, 96, 0.8);
+  background: rgba(97, 96, 96, 0.7);
   border:0.5;
   border-color:#868686;
 }
 .panel-primary .panel-body{
-  background: rgba(198, 198, 198, 0.7);
-}
-* {box-sizing:border-box}
-body {font-family: Verdana,sans-serif;margin:0}
-.mySlides {display:none}
-
-.slideshow-container {
-  max-width: 1000px;
-  position: relative;
-  margin: auto;
-}
-
-.prev, .next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  padding: 16px;
-  margin-top: -22px;
-  color: white;
-  font-weight: bold;
-  font-size: 18px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-}
-
-.next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
-}
-
-.prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
-}
-
-.text {
-  color: #f2f2f2;
-  font-size: 15px;
-  padding: 8px 12px;
-  position: absolute;
-  bottom: 8px;
-  width: 100%;
-  text-align: center;
-}
-
-.numbertext {
-  color: #f2f2f2;
-  font-size: 12px;
-  padding: 8px 12px;
-  position: absolute;
-  top: 0;
-}
-
-.dot {
-  cursor:pointer;
-  height: 13px;
-  width: 13px;
-  margin: 0 2px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
-}
-
-.active, .dot:hover {
-  background-color: #717171;
-}
-
-.fade {
-  -webkit-animation-name: fade;
-  -webkit-animation-duration: 1.5s;
-  animation-name: fade;
-  animation-duration: 1.5s;
-}
-
-@-webkit-keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
-}
-
-@keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
-}
-
-@media only screen and (max-width: 300px) {
-  .prev, .next,.text {font-size: 11px}
+  background: rgba(255, 255, 255, 0.6);
 }
 </style>
 
@@ -162,26 +80,25 @@ body {font-family: Verdana,sans-serif;margin:0}
         <div class="container-fluid">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
+   
 				<br>
-                <a class="navbar-brand" href="home.php"><strong>KID-PAP Shop</strong></a>               
+				
+                <a class="navbar-brand" href="home.php"><strong>KIDPAP SHOP</strong></a>               
             </div>
 			<br>
-            <!-- Collect the nav links, forms, and other content for toggling -->
 			<ul class="nav navbar-nav navbar-right">
                     <li><a href="pro_contact.php">Contact</a></li></ul> 
 		<br>
+		<br>	
 		<br>
 		<br>
-		<br>		
-
     </nav>
-	<center><img src="cap2.jpg" width="97%" ></center>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<center><img src="cap2.jpg" width="100%" ></center>
 	<br>
 	<br>
 	
@@ -196,6 +113,7 @@ body {font-family: Verdana,sans-serif;margin:0}
 </div>
 
 <footer class="text-center page-footer">
+<div id="footer"><?php include("pro_footer.php");?></div>
 </footer>
 </body>
 </html>

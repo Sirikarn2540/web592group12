@@ -1,3 +1,14 @@
+<style>
+button.btn-default{
+	background:rgba(1,1,1,0.5);
+	color:#FFF;	
+}
+button.btn-default:hover{
+	background:rgba(1,1,1,0.6);
+	color:#FFF;	
+}
+</style>
+
 <?php
 use google\appengine\api\users\User;
 use google\appengine\api\users\UserService;
@@ -35,7 +46,7 @@ if($_POST["nick"]){
 <label for="file">Picture</label>
 <input class="form-control" type='file' name='pic'>
 <br>
-<button class="btn btn-primary"><center> Save </center></button>
+<button class="btn btn-default"><center> Save </center></button>
 </div>
 
 </form>

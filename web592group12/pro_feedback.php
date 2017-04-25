@@ -1,3 +1,4 @@
+
 <?php
  use google\appengine\api\users\UserService;
  global $appid,$page,$title,$userdata;
@@ -8,16 +9,17 @@
  $fbjson = file_get_contents($fbfile);
  $fbdata = json_decode($fbjson, true);
  echo "<hr>";
- foreach($fbdata as $fb){
+ foreach($fbdata as $fb){	 
  $text = htmlspecialchars($fb['feedback']);
  $time=date("d/m/Y H:i:s",$fb['time']);
- 
  $pic = userpic($fb['user']);
  echo "<div class='row'>";
- echo "<div class='col-xs-1'><img src='$pic' width='48'></div>";
+ echo "<br>";
+ echo "<div class='col-xs-1 col-sm-1 col-md-1'><img src='$pic' width='48'></div>";
  echo "<div class='col-xs-10'>";
  echo "<a href='#'>$fb[name]</a><br>$text <br>";
- echo "<a href='#'>LIKE</a>$time<hr>";
+ echo "<a href='#'>LIKE</a>&nbsp $time ";
+ echo "<hr>";
  echo "</div>";
  echo "</div>";
  }
